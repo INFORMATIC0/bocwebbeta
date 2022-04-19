@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+				<meta charset="UTF-8">
+				<title>MF Shell</title>
+				<script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src=
+"https://cdn.jsdelivr.net/npm/billboard.js/dist/billboard.min.js"></script>
+  <link
+    rel="stylesheet"
+    href=
+"https://cdn.jsdelivr.net/npm/billboard.js/dist/billboard.min.css"
+  />
+				<link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+				<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+  </script>
+  <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  </script>
+  
+  <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.1/Chart.min.js">
+  </script>
+  <style>
+  				@font-face {
+font-family:comfortaa;
+src:url("../ttf/comfortaa_[AllFont.es].ttf");
+  				}
+ .comfortaa {
+font-family:comfortaa;
+ }
+  </style>
+</head>  
+<header>
+  <div class="collapse bg-dark" style="" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+        <center>  <h4 class="text-muted text-center text-md-start">MF Shell</h4>
+<div class="d-grid gap-2">
+  <a class="btn btn-secondary" href="https://t.me/karurosagu_shell_bot">Telegram</a>
+</div></center>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <strong>MF Shell</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+<body style="background:#ffffff;">
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link text-muted" aria-current="page" href="../index.html">Inicio</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#">MF Shell</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-muted" href="./promail.html">ProMail</a>
+  </li>
+</ul>
+<nav id="navbar-example2" class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navegar</a>
+  <ul class="nav nav-pills">
+  				<li class="nav-item">
+      <a class="nav-link text-muted" href="#intro">Introducción</a>
+    </li>
+  				<li class="nav-item">
+      <a class="nav-link text-muted" href="#one">Caracteristicas</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-muted" href="#two">Comandos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-muted" href="#tree">Tutoriales</a>
+    </li>
+  </ul>
+</nav><div data-spy="scroll" data-target="#navbar-example2" data-offset="0"><br><br>
+<h2 class="text-center text-dark bg-light" style="font-family:comfortaa;" id="intro">INTRODUCCIÓN</h2>
+<br><br><div style="margin:6px;"><h4 class="bg-light rounded text-center">Habitualmente, la mayoría de los bots en Telegram que manejan archivos tienen ese efecto "boomerang", les das algo, ya sea un archivo del propio Telegram para que haga algo, un enlace a otro sitio web para que lo descargue, hacen su trabajo y te lo devuelven a tu chat, tu privado con ese bot, esto se considera "normal". Lo primero que debe tener en cuenta es que MF Shell no es un bot normal</h4></div><br><br><h2 class="text-center text-dark bg-light" style="font-family:comfortaa;" id="one">CARACTERÍSTICAS</h2>
+<br><br><div style="margin:6px;"><h4 class="bg-light rounded text-center comfortaa">→ Puede organizar como le de la gana sus archivos en el bot: creación de carpetas, mover, borrar, archivar y hasta cifrar archivos
+<br><br>
+→ Numerosas plataformas soportadas, desde el típico Youtube, sitios de alojamiento de archivos como MEGA, hasta tiendas de aplicaciones de terceros e incluso sitios para leer manga y comics en línea
+<br><br>
+→ Procesamientos en masa principalmente descargar o subir grandes números de archivos
+<br><br>
+→ Sistema de colas por cada tipo de transferencia y un conjunto de herramientas para administrar estas colas
+<br><br>
+→ Servidor web adjunto con funciones para descargar con mayor facilidad los archivos por descarga directa usando aplicaciones como IDM
+
+</h4></div><br><br><div style="margin:4px;"><h3 class="text-light bg-dark rounded text-center">Básicamente en este bot el flujo de trabajo se resume en:</h3></div><br><br><div><h4 class="text-center bg-light comfortaa">Descargar de donde sea → Reorganizar → Subir al chat o compartir por HTTP</h4><h4 class="text-center">1 - Descargar archivos ya sea de un sitio web cualquiera o del propio Telegram al bot
+<br><br>
+2 - Dividir archivos, agruparlos, cifrarlos, lo que sea, y como a usted le guste
+<br><br>
+3 - Subir denuevo los archivos resultantes al chat o compartir en el servidor web del bot y hacer una descarga directa
+<br><br>
+La guía ha resultado ser densa para muchos usuarios, es por eso que en este post hay un tutorial de uso básico del bot, donde se explica y se muestra casi todos los comandos más usados del bot
+
+</h4></div><br><br><iframe width="100%" height="315" src="https://www.youtube.com/embed/ZKIziUQCZeE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h2 class="text-center text-dark bg-light" style="font-family:comfortaa;" id="two">COMANDOS</h2>
+<br><br><div style="margin:6px;"><h4 class="bg-light rounded text-center"><span class="comfortaa text-center">Información y ayuda</span><br><br>
+<span class="text-muted">
+Comandos para obtener información
+</span><br><br>
+<span class="text-primary comfortaa">/about</span>
+<br>
+Muestra un breve resúmen acerca del bot y el enlace al sitio web propio del bot
+<br><br>
+Uso: /about
+<br><hr><br>
+<span class="text-primary comfortaa">/help</span>
+<br>
+Muestra enlaces a la guía de usuario y a la referencia de comandos, es decir, este sitio
+<br><br>
+Uso: /help
+<br><hr><br>
+<span class="text-primary comfortaa">/help</span>
+<br>
+Mostrar las propiedades de un archivo del lado de Telegram. Se usa respondiendo a un archivo
+<br><br>
+Uso: /info
+<br><hr><br>
+<span class="text-primary comfortaa">/mediainfo</span>
+<br>
+Información multimedia de un archivo (dentro del bot) obtenida al ejecutar MediaInfo
+<br>
+La información completa se le dará en un archivo de texto que se sube al chat, en caso de no subirlo (dios sabe por qué) el archivo se queda de todos modos en el directorio donde ejecuta el comando
+<br><br>
+Use: /mediainfo A
+<br><br>
+A = Selección simple. Sólo un archivo
+<br><hr><br>
+<span class="text-primary comfortaa">/start</span>
+<br>
+Muestra información resumida sobre su sesión en el bot. Algunos datos no se muestran por esta vía
+<br><br>
+Uso: /start</h4><h2>Mas comandos proximamente...</h2><br><br><h2 class="text-center text-dark bg-light" style="font-family:comfortaa;" id="tree">TUTORIALES</h2</div>
+<h2>Aqui iran los tutoriales</h2>
+</div>
+</body>
+<script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</html>
